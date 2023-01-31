@@ -34,11 +34,11 @@ Os organizadores da competição realizada durante o projeto anterior gostaram m
 
 - Para calcular a categoria
 
-  * Infantil: 9 a 11 anos
-  * Juvenil: 12 e 13 anos
-  * Intermediário: 14 e 15 anos
-  * Adulto: 16 a 30 anos
-  * Sem categoria: demais idades
+   Infantil: 9 a 11 anos <br> 
+   Juvenil: 12 e 13 anos <br> 
+   Intermediário: 14 e 15 anos <br> 
+   Adulto: 16 a 30 anos <br> 
+   Sem categoria: demais idades <br> 
 
 - Para calcular o IMC
 
@@ -50,21 +50,21 @@ Os organizadores da competição realizada durante o projeto anterior gostaram m
 
 ### Exemplo de entrada
 
-// Declara o atleta
+> // Declara o atleta <br> 
 const atleta = new Atleta("Cesar Abascal",
     30, 80, 1.70,
     [10, 9.34, 8.42, 10, 7.88]);
 
 ### Exemplo de saída
 
-  * Nome: Cesar Abascal
-  * Idade: 30
-  * Peso: 80
-  * Altura: 1.7
-  * Notas: 10,9.34,8.42,10,7.88
-  * Categoria: Adulto
-  * IMC: 27.68166089965398
-  * Média válida: 8.766666666666666
+ > Nome: Cesar Abascal <br> 
+   Idade: 30 <br> 
+   Peso: 80 <br> 
+   Altura: 1.7 <br> 
+   Notas: 10,9.34,8.42,10,7.88 <br> 
+   Categoria: Adulto <br> 
+   IMC: 27.68166089965398 <br> 
+   Média válida: 8.766666666666666 <br> 
  
  ### Entrega
 
