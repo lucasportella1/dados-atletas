@@ -17,7 +17,7 @@ class Atleta {
     else if(this.idade >= 14 && this.idade < 16){
       return "Intermediário"
     }
-    else if(this.idade >= 16 && this.idade < 30){
+    else if(this.idade >= 16 && this.idade < 31){
       return "Adulto"
     }
     else {
@@ -37,25 +37,28 @@ class Atleta {
   }  
 
   obtemNomeAtleta(){
-    return this.nome
+    return "Nome: " + this.nome
   }
   obtemIdadeAtleta(){
-    return this.idade
+    return "Idade: " + this.idade
   }
   obtemPesoAtleta(){
-    return this.peso
+    return "Peso: " + this.peso
+  }
+  obtemAlturaAtleta(){
+    return "Altura: " + this.altura
   }
   obtemNotasAtletas(){
-    return this.notas
+    return "Notas: " + this.notas
   }
   obtemCategoria(){
-    return this.calculaCategoria()
+    return "Categoria: " + this.calculaCategoria()
   }
   obtemIMC(){
-    return this.calculaIMC()
+    return "IMC: " + this.calculaIMC()
   }
   obtemMediaValida(){
-    return this.calculaMediaValida()
+    return "Média válida: " + this.calculaMediaValida()
   }
 }
 
@@ -64,14 +67,11 @@ const atleta = new Atleta("Cesar Abascal",
     30, 80, 1.70,
     [10, 9.34, 8.42, 10, 7.88]);
 
-console.log("Nome: " + atleta.obtemNomeAtleta())
-console.log("Idade: " + atleta.obtemIdadeAtleta())
-console.log("Peso: " + atleta.obtemPesoAtleta())
-console.log("Altura: " + atleta.altura)
-console.log("Notas: " + atleta.obtemNotasAtletas())
-console.log("IMC: " + atleta.obtemIMC())
-console.log("Média válida: " + atleta.obtemMediaValida())
-
-
-
-
+console.log(atleta.obtemNomeAtleta())
+console.log(atleta.obtemIdadeAtleta())
+console.log(atleta.obtemPesoAtleta())
+console.log(atleta.obtemAlturaAtleta())
+console.log(atleta.obtemNotasAtletas())
+console.log(atleta.obtemCategoria())
+console.log(atleta.obtemIMC())
+console.log(atleta.obtemMediaValida())
